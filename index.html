@@ -1,65 +1,105 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+
+
+
     <title>agoodshop</title>
 </head>
+
 <body>
-    <header>Cabecera 
-        <nav class="nav-header">
-            <ul>
+    <header class="wrapper">
+        <nav class="header-nav">
+            agoodshop
+            <ul class="header-nav__list">
                 <li>Tienda</li>
                 <li>Accesorios</li>
                 <li>Soporte</li>
-                <li>Contactar</li>
+                <li><button class="contact-but">Contactar</button></li>
             </ul>
         </nav>
     </header>
-    <article> Articulo Venta
-        <img src="#" alt="">
-        <p>Oferta</p>
-        <h1>Compra un iFhone 13 Pro</h1>
-        <p>iFhone 13: Tu nuevo superpoder. Nuestro sistema de cámara dual más avanzado. El chip que hace morder el polvo a la competencia. Un subidón de autonomía que vaya si notarás. Ceramioc Shield, más duro que cualquier vidrio de smartphone.</p>    
-        <p> Pantalla Super Retina XDR de 6,1 pulgadas. Diseño robusto con bordes planos y resistente al agua.</p>
-        <span>Precio</span>
-        <button>Comprar</button>
-        <ul>
-            <li>
-                <img src="" alt="Tienda">
-                <p>Envio rápido, gratuito y sin contacto</p>
-            </li>
-            <li>
-                <img src="" alt="Tienda">
-                <p>Devoluciones fáciles y gratuitas</p>
-            </li>
-            <li>
-                <img src="" alt="Tienda">
-                <p>Posibilidad de pago a plazos</p>
-            </li>
-        </ul>
-    </article>
-    <section>
-        Accesorios recomendados
-    <h1>Accesorios recomendados</h1>
-    </section>
-    <section>Sorteos</section>
-        <form action="">
-            
-            <label for="Nom">Nombre</label>
-            <input type="text" id="Nom" name="name">
+    <hr class="separador">
+    <div class="wrapper">
+        <article>
+            <div class="art-princ">
+                <div class="art-princ__imagen">
+                    <img src="./images/placer_holder_1000x1000.png" alt="imagen iFhone" class="img-responsive">
+                    <span class="over-img"> 128Gb </span>
+                </div>
+                <div class="art-princ__text">
+                    <p class="oferta"><strong>OFERTA</strong></p>
+                    <h1>Compra un iFhone 13 Pro</h1>
+                    <p>iFhone 13: Tu nuevo superpoder. Nuestro sistema de cámara dual más avanzado. El chip que hace
+                        morder
+                        el
+                        polvo
+                        a la competencia. Un subidón de autonomía que vaya si notarás. Ceramioc Shield, más duro que
+                        cualquier
+                        vidrio de smartphone.</p>
+                    <p> Pantalla Super Retina XDR de 6,1 pulgadas. Diseño robusto con bordes planos y resistente al
+                        agua.
+                    </p>
+                    <h1 class="precio">938,99€</h1>
+                    <button>Comprar</button>
+                    <ul class="art-princ__info">
+                        <li class="art-princ__li">
+                            <img src="./images/place_holder_32x32.png" alt="Tienda">
+                            <span>Envio rápido, gratuito y sin contacto</span>
+                        </li>
+                        <li class="art-princ__li">
+                            <img src="./images/place_holder_32x32.png" alt="Tienda">
+                            <span>Devoluciones fáciles y gratuitas</span>
+                        </li>
+                        <li class="art-princ__li">
+                            <img src="./images/place_holder_32x32.png" alt="Tienda">
+                            <span>Posibilidad de pago a plazos</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </article>
+
+
+
+
+
+
+
+        <section>
+            <h1>Accesorios recomendados</h1>
+        </section>
+
+
+        <section>
+            <h1>Sorteos</h1>
+
+
+
+        </section>
+        <form action="" method="post">
+
+            <label for="Nombre">Nombre</label>
+            <input type="text" id="Nombre" name="name" placeholder="pon tu nombre">
 
             <label for="food">Comida favorita</label>
             <select name="food" id="dood">
                 <option value="food-1">Sushi</option>
-                <option value="food-2">Bacalao </option>  
+                <option value="food-2">Bacalao </option>
                 <option value="food-3">Paella</option>
             </select>
             <label for="input-daytime-local">Dia y hora</label>
             <input type="datetime-local" name="daytimelocal" id="input-daytime-local">
             <button type="submit"> Enviar </button>
         </form>
+    </div>
     <footer> Pie de web</footer>
 </body>
+
 </html>

@@ -1,0 +1,6 @@
+paso intermedio entre mobile i desktop a 970px
+Compra un iFhone 13 Pro ( es el titulo princ de la pàgina, mismo estilo que Accesorios recomendados.)
+Fuente Roboto
+Botones inguales con color que cambia.
+
+line-height : 1.3 /* Jugar amb l'espai entre linies de text*/
